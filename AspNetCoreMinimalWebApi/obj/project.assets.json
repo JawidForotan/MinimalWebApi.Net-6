@@ -2063,11 +2063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\AspNetCoreMinimalWebApi\\TechTalkAspNetCoreWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\MinimalWebApi.Net-6\\AspNetCoreMinimalWebApi\\TechTalkAspNetCoreWebApi.csproj",
       "projectName": "TechTalkAspNetCoreWebApi",
-      "projectPath": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\AspNetCoreMinimalWebApi\\TechTalkAspNetCoreWebApi.csproj",
+      "projectPath": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\MinimalWebApi.Net-6\\AspNetCoreMinimalWebApi\\TechTalkAspNetCoreWebApi.csproj",
       "packagesPath": "C:\\Users\\jawid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\AspNetCoreMinimalWebApi\\obj\\",
+      "outputPath": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\MinimalWebApi.Net-6\\AspNetCoreMinimalWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2139,7 +2139,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

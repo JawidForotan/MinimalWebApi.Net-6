@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "epN47u5Kat7w28QB9V3ZGK+HpxndL0hqmzCXQpPR7snN9jtavnRHlrb5QbLSeiJwLUar/LSFbm9o2qJKFggDBw==",
+  "dgSpecHash": "zzebGNPn9nftIbTEaNLYGvRld5QXyreWVhSJ21qtaDe8xhGqcdLuGPxqMJUKvRXzPbZx0/EOpT7w6lbZthIKyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\AspNetCoreMinimalWebApi\\TechTalkAspNetCoreWebApi.csproj",
+  "projectFilePath": "C:\\Users\\jawid\\OneDrive\\Bureaublad\\C#\\MinimalWebApi.Net-6\\AspNetCoreMinimalWebApi\\TechTalkAspNetCoreWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jawid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jawid\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

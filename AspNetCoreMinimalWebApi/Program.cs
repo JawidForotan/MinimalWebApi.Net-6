@@ -52,13 +52,14 @@ context.students.ToList());
 // Get student by id
 
 app.MapGet("/getOne/{id}", async (DataContext context, int id) =>
-await context.students.FindAsync(id) is (Student student) ? Results.Ok(student) : Results.NotFound("No, student found"));
+await context.students.FindAsync(id) is (Student student) ? Results.Ok(student) : Results.NotFound("There is no record with this id ☹️"));
 
 
 // Post to create new student
 
 app.MapPost("/creatNewStudent", async (DataContext context, Student newStudent) =>
 {
+
     context.students.Add(newStudent);
     await context.SaveChangesAsync();
     return Results.Ok(await GetAllStudents(context));
@@ -67,14 +68,15 @@ app.MapPost("/creatNewStudent", async (DataContext context, Student newStudent) 
 
 // Update
 
-app.MapPut("/updateStudent/{id}", async (DataContext context, Student updateStudent, int id) =>
+app.MapPut("/updateStudent/{id}", async (DataContext context, Student updatedStudent, int id) =>
 {
     var studentToUpdate = await context.students.FindAsync(id);
-    if(studentToUpdate == null) return Results.NotFound("No, student found");
+    if (studentToUpdate == null) return Results.NotFound("There is no record with this id ☹️");
 
     studentToUpdate.Id = id;
-    studentToUpdate.Name = studentToUpdate.Name;
-    studentToUpdate.Age = updateStudent.Age;
+    studentToUpdate.Name = updatedStudent.Name;
+    studentToUpdate.Age = updatedStudent.Age;
+    studentToUpdate.City = updatedStudent.City;
     await context.SaveChangesAsync();
 
     return Results.Ok(await GetAllStudents(context));
